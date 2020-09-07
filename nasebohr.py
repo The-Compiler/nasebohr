@@ -1,8 +1,7 @@
 #!/usr/bin/python3
 
 # Copyright 2020 Florian Bruhin (The Compiler) <me@the-compiler.org>
-# All rights reserved. Don't worry, I'll upload this to GitHub under a free
-# license ASAP. I just need some food now.
+# Licensed under the MIT license, see LICENSE for details.
 
 import argparse
 
