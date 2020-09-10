@@ -27,7 +27,7 @@ def do_query(resolver, name, rrtype):
         return
 
     for rr in answer:
-        rich.print(f'[white]{name}[/white] [bright_black]{rrtype:3}[/bright_black] {rr}')
+        rich.print(f'[white]{name}[/white] [bright_black]{rrtype:4}[/bright_black] {rr}')
 
 
 def main():
