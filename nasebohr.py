@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 
 # Copyright 2020 Florian Bruhin (The Compiler) <me@the-compiler.org>
 # Licensed under the MIT license, see LICENSE for details.
