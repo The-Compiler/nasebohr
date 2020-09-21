@@ -5,7 +5,7 @@
 
 import argparse
 
-import rich
+import rich.console
 import dns.resolver
 
 
@@ -20,14 +20,16 @@ def parse_args() -> argparse.Namespace:
 
 
 def do_query(resolver, name, rrtype):
+    console = rich.console.Console(emoji=False)
+
     try:
         answer = resolver.query(name, rrtype)
     except dns.exception.DNSException as e:
-        rich.print(f'[red]{e}[/red]')
+        console.print(f'[red]{e}[/red]')
         return
 
     for rr in answer:
-        rich.print(f'[white]{name}[/white] [bright_black]{rrtype:4}[/bright_black] {rr}')
+        console.print(f'[white]{name}[/white] [bright_black]{rrtype:4}[/bright_black] {rr}')
 
 
 def main():
