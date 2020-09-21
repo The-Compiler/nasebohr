@@ -23,7 +23,7 @@ def do_query(resolver, name, rrtype):
     console = rich.console.Console(emoji=False)
 
     try:
-        answer = resolver.query(name, rrtype)
+        answer = resolver.resolve(name, rrtype)
     except dns.exception.DNSException as e:
         console.print(f'[red]{e}[/red]')
         return
