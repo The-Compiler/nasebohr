@@ -1,6 +1,6 @@
-# nasebohr
+**This project has been archived.** *There are various other projects providing CLI DNS clients with nice output. Most of them were started around when I started this project, but they still are actively maintained and support many more features than what nasebohr does:* [dog](https://dns.lookup.dog/), [doggo](https://github.com/mr-karan/doggo), [q](https://github.com/natesales/q).
 
-**This project has been archived.** There are various other projects providing CLI DNS clients with nice output. Most of them were started around when I started this project, but they still are actively maintained and support many more features than what nasebohr does: [dog](https://dns.lookup.dog/), [doggo](https://github.com/mr-karan/doggo), [q](https://github.com/natesales/q).
+# nasebohr
 
 A command-line tool for DNS queries, with colors and beautiful output
 
